@@ -1,0 +1,23 @@
+#include<stdio.h>
+
+int main()
+{
+	int N,K,W[100],V[100],num[100];
+	int i;
+	int Max1=0,Max2=0;
+
+	scanf("%d %d", &N, &K); //		N = 물품 개수	K = 가방 무게
+							//		W =	물건의 무개 V = 해당 물건의 가치
+	for(i=0; i<N; i++)		
+	{
+		scanf("%d %d", &W, &V);
+	}
+
+	for(i=0; i<N-1; i++)
+	{
+		if(W[i]/V[i] > W[i]/V[i])0
+	}
+
+
+	return 0;
+}
